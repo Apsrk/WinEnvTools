@@ -155,6 +155,7 @@ func usage() {
 	fmt.Fprintf(os.Stderr, "  rm,remove		Remove a value from an environment variable\n")
 	fmt.Fprintf(os.Stderr, "  del,delete	Delete specific environment variable\n")
 	fmt.Fprintf(os.Stderr, "  list			List all values of an environment variable\n")
+	fmt.Fprintf(os.Stderr, "  set			Set an environment variable\n")
 	os.Exit(1)
 }
 
